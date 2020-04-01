@@ -1,8 +1,8 @@
 {
   "name": "vue-laravel-errors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Vue.JS plugin that adds a global function which can be used to fill an errors object from a laravel error response",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Sohaib-Sherif/vue-laravel-errors.git"
