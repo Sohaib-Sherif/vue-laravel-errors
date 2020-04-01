@@ -4,7 +4,7 @@ export default {
         Vue.mixin({
             data() {
                 return {
-                    errors : null,
+                    errors : {},
                 }
             },
             methods: {
