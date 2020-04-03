@@ -1,4 +1,4 @@
-export default (type) => {
+export const vueLaravelErrors = (type) => {
     return {
         data() {
             return {
