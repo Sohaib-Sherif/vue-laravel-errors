@@ -1,4 +1,4 @@
-import {vueLaravelErrors} from 'vueLaravelErrors'
+import {vueLaravelErrors} from './vueLaravelErrors'
 
 export default {
     install(Vue, options) {
