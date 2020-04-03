@@ -56,8 +56,9 @@ afterwards in the template we can access the errors variable as follows
 ```vue
 <!-- Quite an important field to validate lol -->
 <template>
-  <input name="name" type="text"/>
-  <span class="error">{{ errors.name }}</span>
+  <input name="first_name" type="text"/>
+  <span class="error">{{ errors.first_name }}</span>
+  <-- The key of the errors object here is based on the attribute name that’s used in the backend validation, which is in this example here the input is named "first_name" -->
 </template>
 ```
 
