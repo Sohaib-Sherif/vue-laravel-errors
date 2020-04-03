@@ -1,4 +1,4 @@
-import {vueLaravelErrors} from 'mixin'
+import {vueLaravelErrors} from 'vueLaravelErrors'
 
 export default {
     install(Vue, options) {
